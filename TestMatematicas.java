@@ -7,5 +7,13 @@ public class TestMatematicas {
 			System.out.println("El número "+numero+" es par");
 		else
 			System.out.println("El número "+numero+" NO es par");
+		if (Matematicas.esDivisiblePorTres(numero))
+			System.out.println("El número "+numero+" es divisible por 3");
+		else
+			System.out.println("El número "+numero+" NO es divisible por 3");
+		if (Matematicas.esDivisiblePorCinco(numero))
+			System.out.println("El número "+numero+" es divisible por 5");
+		else
+			System.out.println("El número "+numero+" NO es divisible por 5");
 	}
 }
